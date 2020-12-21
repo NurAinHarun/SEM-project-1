@@ -1,6 +1,6 @@
 <?php
 
 $link=mysqli_connect("localhost","root","") or die(mysqli_error($link));
-mysqli_select_db($link,"mymerit") or die(mysqli_error($link));
+mysqli_select_db($link,"dbsem") or die(mysqli_error($link));
 
 ?>
