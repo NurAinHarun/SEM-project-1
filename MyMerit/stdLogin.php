@@ -19,13 +19,13 @@
       <div class="form-group">
         <div class="input-group col-xs-15">
           <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-          <input type="text" class="form-control" name="stdName" placeholder="Username" /> <!-- need to change this --> 
+          <input type="text" class="form-control" name="stdName" placeholder="Username" /> <!-- need to fix this --> 
         </div>
       </div>
       <div class="form-group">
         <div class="input-group col-xs-15">
           <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-          <input type="password" class="form-control" name="stdPwd" placeholder="Password" /> <!-- need to change this --> 
+          <input type="password" class="form-control" name="stdPwd" placeholder="Password" /> <!-- need to fix this --> 
         </div>
       </div>
       <div class="btn-group">
