@@ -4,11 +4,12 @@ include('dbconfig.php');
 
 // LOGIN student
 if (isset($_POST['stdData'])) {
+  
   $stdName = $_POST['stdName'];
   $stdPwd = $_POST['stdPwd'];
 
   
-    $sql = "SELECT * from student where stdName ='$stdName' and stdPwd = '$stdPwd'";
+    $sql = "SELECT * from student";
     
 $query = $mysqli->query($sql);
 
@@ -36,8 +37,7 @@ $query = $mysqli->query($sql);
           
         }else{
             
-          echo "<script type='text/javascript'>alert('Wrong username or password!Please try again!');
-            window.location = 'stdLogin.php';</script>";
+          
         }
 
         $mysqli->close();
