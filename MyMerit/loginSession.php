@@ -5,8 +5,7 @@ include('dbconfig.php');
 // LOGIN student
 if (isset($_POST['stdData'])) {
   
-  $stdName = $_POST['stdName'];
-  $stdPwd = $_POST['stdPwd'];
+  
 
   
     $sql = "SELECT * from student";
